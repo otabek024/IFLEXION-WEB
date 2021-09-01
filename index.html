@@ -12,7 +12,7 @@
 <body>
 
   <!--Navigation Bar-->
-  <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand px-lg-5" href="#">IFLEXION</a>
     <button 
@@ -25,12 +25,22 @@
     <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">COMPANY</a>
+      <ul class="navbar-nav ml-auto mr-5 pr-5">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbardropdownlink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">COMPANY</a>
+          <div class="dropdown-menu dropdown-primary" aria-labelledby="navbardropdownlink">
+            <a class="dropdown-item" href="#">First Content</a>
+            <a class="dropdown-item" href="#">Second Content</a>
+            <a class="dropdown-item" href="#">Third Content</a>
+          </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">EXPERTISE</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbardropdownlink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">EXPERTISE</a>
+          <div class="dropdown-menu dropdown-primary" aria-labelledby="navbardropdownlink">
+            <a class="dropdown-item" href="#">Expertise 1</a>
+            <a class="dropdown-item" href="#">Expertise 2</a>
+            <a class="dropdown-item" href="#">Expertise 3</a>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">SERVICES</a>
@@ -53,15 +63,13 @@
   </nav>
   <!--Content-->
   <section class="content-banner">
-    <div class="container-fluid">
-      <div class="row d-flex justify-content-center">
-        <div class="col-md-12">
-          <div class="banner-con text-center">
-            <h1 class="first-title mt-5">
-              YOUR BUSINESS NEEDS <br>
-              OUR SOFTWARE SOLUTIONS
-            </h1>
-          </div>
+    <div class="d-flex justify-content-center">
+      <div class="col-md-12">
+        <div class="banner-con text-center">
+          <h1 class="first-title mt-5">
+            YOUR BUSINESS NEEDS <br>
+            OUR SOFTWARE SOLUTIONS
+          </h1>
         </div>
       </div>
     </div>
@@ -112,37 +120,37 @@
   <!--Image Gallery-->  
   <div class="container-fluid">
     <div class="row image-gallery">
-      <div class="col-md-3 pb-4">
+      <div class="col-md-3 p-0 m-0">
         <img class="img-fluid" src="https://lumiere-a.akamaihd.net/v1/images/sa_pixar_virtualbg_coco_16x9_9ccd7110.jpeg" alt="">
         <!-- <i class="fas fa-globe animation-icon"></i> -->
         <p class="image-text">WEB & ENTERPRISE PORTALS</p>
         <!-- <p class="animaiton-text">Incredible UX and compelling functionality</p> -->
       </div>
-      <div class="col-md-3 pb-4">
+      <div class="col-md-3 p-0 m-0">
         <img class="img-fluid" src="https://www.techrepublic.com/a/hub/i/r/2021/02/05/2c503225-0fb7-447f-8f34-facda0dc4472/resize/1200x/cda20270e6cc67f471f748edf15cba0f/smash-3.jpg" alt="">
         <p class="image-text">WEB & ENTERPRISE PORTALS</p>
       </div>
-      <div class="col-md-3 pb-4">
+      <div class="col-md-3 p-0 m-0">
         <img class="img-fluid" src="https://wallpaperaccess.com/full/253484.jpg" alt="">
         <p class="image-text">WEB & ENTERPRISE PORTALS</p>
       </div>
-      <div class="col-md-3 pb-24">
+      <div class="col-md-3 p-0 m-0">
         <img class="img-fluid" src="https://images6.alphacoders.com/701/701269.jpg" alt="">
         <p class="image-text">WEB & ENTERPRISE PORTALS</p>
       </div>
-      <div class="col-md-3 pb-4">
+      <div class="col-md-3 p-0 m-0">
         <img class="img-fluid" src="https://www.adweek.com/wp-content/uploads/2020/03/behr-zoom-background-feature-2020.jpg" alt="">
         <p class="image-text">WEB & ENTERPRISE PORTALS</p>
       </div>
-      <div class="col-md-3 pb-4">
+      <div class="col-md-3 p-0 m-0">
         <img class="img-fluid" src="https://lumiere-a.akamaihd.net/v1/images/sa_pixar_virtualbg_coco_16x9_9ccd7110.jpeg" alt="">
         <p class="image-text">WEB & ENTERPRISE PORTALS</p>
       </div>
-      <div class="col-md-3 pb-4">
+      <div class="col-md-3 p-0 m-0">
         <img class="img-fluid" src="https://media.publit.io/file/Snow-background-night.png" alt="">
         <p class="image-text">WEB & ENTERPRISE PORTALS</p>
       </div>
-      <div class="col-md-3 pb-4">
+      <div class="col-md-3 p-0 m-0">
         <img class="img-fluid" src="https://adoption.azureedge.net/wp-content/custom-backgrounds-gallery/user-submitted-background-71.jpg" alt="">
         <p class="image-text">WEB & ENTERPRISE PORTALS</p>
       </div>
@@ -238,14 +246,14 @@
         <button class="btn border-success">LEARN MORE</button>
       </div>
       <div class="col-md-6">
-        <div class="spinner-border circle text-success " role="status">
-          <span class="sr-only"></span>
+        <div class="div">
+          <div class="inside-div">
+            <h1>94%</h1>
+            <p>of our customers recommend us to their <br>
+            business partners
+            </p>
+          </div>
         </div>
-        <h1 class="h-1">94%</h1>
-        <p class="p-1">
-          of our customers recommend us to their <br>
-          business partners
-        </p>
       </div>
     </div>
   </div>
