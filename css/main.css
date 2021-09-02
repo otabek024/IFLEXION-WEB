@@ -131,8 +131,6 @@ body{
 
 .image-text:hover{
   color: yellow;
-  box-shadow: 0 0 10px #fff;
-  border-radius: 100px;
 }
 
 .row .img-fluid{
@@ -240,9 +238,6 @@ body{
 }
 .image-text-2:hover{
   color: yellow;
-  box-shadow: 0 0 10px #fff;
-  border-radius: 100px;
-  padding: .5em;
 }
 .footer{
   background-color: rgb(39, 38, 38);
